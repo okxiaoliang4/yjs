@@ -28,6 +28,7 @@ export const YXmlTextRefID = 6
 const typeRefs = new Map([
   [YArrayRefID, readYArray],
   [YMapRefID, readYMap],
+  [YTextRefID, readYText],
   [YXmlElementRefID, readYXmlElement],
   [YXmlFragmentRefID, readYXmlFragment],
   [YXmlHookRefID, readYXmlHook],
