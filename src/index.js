@@ -90,7 +90,16 @@ export {
   diffUpdateV2,
   convertUpdateFormatV1ToV2,
   convertUpdateFormatV2ToV1,
-  UpdateEncoderV1
+  UpdateEncoderV1,
+  UpdateEncoderV2,
+  UpdateDecoderV1,
+  UpdateDecoderV2,
+  registerTypeRef,
+  typeMapSet,
+  typeMapGet,
+  typeMapHas,
+  createMapIterator,
+  callTypeObservers,
 } from './internals.js'
 
 const glo = /** @type {any} */ (typeof globalThis !== 'undefined'
